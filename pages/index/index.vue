@@ -4,22 +4,22 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		
+		<view class="">
+		  <navigator url="../nottab/index">非Tab页面</navigator>
+		</view>
 	</view>
 </template>
 
 <script>
 	export default {
 		data() {
-			return {
-				title: 'Hello'
-			}
+			return { title: 'Hello' }
 		},
 		onLoad() {
 
 		},
-		methods: {
-
-		}
+		methods: {}
 	}
 </script>
 

@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "uniapp-admin"
 			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/nottab/index",
+			"style": {
+				"navigationBarTitleText": "非Tab页面"
+			}
 		}
 	],
 	"globalStyle": {
@@ -13,5 +25,17 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"text": "Home",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "Test",
+				"pagePath": "pages/test/index"
+			}
+		]
+	}
 }
