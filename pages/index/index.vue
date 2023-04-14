@@ -8,14 +8,18 @@
 		<view class="">
 		  <navigator url="../nottab/index">非Tab页面</navigator>
 		</view>
+		
+		<Info/>
 	</view>
 </template>
 
 <script>
+	import Info from './Info.vue'
 	export default {
 		data() {
 			return { title: 'Hello' }
 		},
+		components: { Info },
 		onLoad() {
 
 		},
@@ -48,5 +52,12 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	}
+	
+	navigator{
+		padding: 10px;
+		color: #333;
+		background-color: #e8e8e8;
+		border: 1px solid #e8e8e8;
 	}
 </style>
